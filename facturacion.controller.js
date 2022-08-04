@@ -84,7 +84,11 @@
                     var resultado = JSON.parse(JSON.stringify(result));
 
                     var html = "<tr><td>"+resultado['id_producto_']+"</td>"
-                    var html = "<td>"+resultado['id_producto_']+"</td></tr>"
+                    var html = "<td>"+resultado['producto_']+"</td>"
+                    var html = "<td>"+resultado['cantidad_']+"</td>"
+                    var html = "<td>"+resultado['precio_venta_']+"</td>"
+                    var html = "<td>"+resultado[$subtotal]+"</td></tr>"
+                    
 
                     $("#tabla").append(html);
                 }
